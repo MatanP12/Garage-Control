@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ex03.GarageLogic.Car">
+    <Position X="8.5" Y="8.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Ex03.GarageLogic.Car.eColor" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Car.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAEAAABAAACAAAAAAAAAAAAhAgAAQA=</HashCode>
+      <FileName>Car.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ex03.GarageLogic.Engine">
+    <Position X="14.25" Y="1.25" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Ex03.GarageLogic.Engine.eEngineType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Engine.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="Ex03.GarageLogic.Engine.ElectricEngine" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Engine.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Ex03.GarageLogic.Engine.FuelEngine" Collapsed="true">
+        <Compartments>
+          <Compartment Name="Nested Types" Collapsed="false" />
+        </Compartments>
+        <NestedTypes>
+          <Enum Name="Ex03.GarageLogic.Engine.FuelEngine.eFuelType" Collapsed="true">
+            <TypeIdentifier>
+              <NewMemberFileName>Engine.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Enum>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>Engine.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ex03.GarageLogic.Garage">
+    <Position X="17.5" Y="1.25" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Ex03.GarageLogic.Garage.InformationOfVehicle" Collapsed="true">
+        <Compartments>
+          <Compartment Name="Nested Types" Collapsed="false" />
+        </Compartments>
+        <NestedTypes>
+          <Enum Name="Ex03.GarageLogic.Garage.InformationOfVehicle.eVehicleStateInGarage" Collapsed="true">
+            <TypeIdentifier>
+              <NewMemberFileName>Garage.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Enum>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>Garage.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAIAAAMAAAAAAAAAAAAAAAsAAA=</HashCode>
+      <FileName>Garage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ex03.GarageLogic.Motorcycle">
+    <Position X="11.5" Y="8.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Ex03.GarageLogic.Motorcycle.eLicenseType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Motorcycle.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAABAAACAAACCAAAAAEABAAACAA=</HashCode>
+      <FileName>Motorcycle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ex03.GarageLogic.Truck">
+    <Position X="14.5" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAEAAABAAgCAAAAAAAAIABABQAAAAA=</HashCode>
+      <FileName>Truck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ex03.GarageLogic.ValueOutOfRangeException">
+    <Position X="8.25" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAgAAAAAAAAAAAAoAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>ValueOutOfRangeException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ex03.GarageLogic.Vehicle">
+    <Position X="11.25" Y="1.25" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Ex03.GarageLogic.Vehicle.Wheel" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Vehicle.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AwAAAAAAAkBAAABEAAAEEAACAAAAAAAQBAgIBAAAAAA=</HashCode>
+      <FileName>Vehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ex03.GarageLogic.VehicleAllocator">
+    <Position X="8.25" Y="4.25" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Ex03.GarageLogic.VehicleAllocator.eVehicleType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>VehicleAllocator.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAACAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>VehicleAllocator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
